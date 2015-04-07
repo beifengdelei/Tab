@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/layout_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <RadioGroup
+        android:id="@+id/tabs_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/tab_one"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@drawable/selector_tab"
+            android:button="@null"
+            android:drawableTop="@drawable/tab_latestalert"
+            android:checked="true"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="Tab1"
+            android:textColor="#000000"
+            android:textSize="13sp" />
+
+        <RadioButton
+            android:id="@+id/tab_two"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@drawable/selector_tab"
+            android:button="@null"
+            android:drawableTop="@drawable/tab_aboutus"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="Tab2"
+            android:textColor="#000000"
+            android:textSize="13sp" />
+
+        <RadioButton
+            android:id="@+id/tab_three"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@drawable/selector_tab"
+            android:button="@null"
+            android:drawableTop="@drawable/tab_configicon"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="Tab3"
+            android:textColor="#000000"
+            android:textSize="13sp" />
+    </RadioGroup>
+
+</LinearLayout>
